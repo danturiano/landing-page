@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #1f2937;
+  background-color: #121726;
 }
 
 body {
@@ -22,8 +22,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 200px 5px 200px;
-  margin-top: 10px;
+  padding: 5px 300px 5px 300px;
+  margin-top: 20px;
 }
 
 .logo {
@@ -32,13 +32,43 @@ a {
   gap: 10px;
 }
 
-.logo h1 {
-  color: #f9faf8;
-  font-size: 24px;
-  font-weight: 700;
-}
-
 .links {
   display: flex;
   gap: 40px;
+  margin-bottom: 18px;
+}
+
+.section-hero {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  padding: 5px 300px 5px 300px;
+  margin-top: 50px;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-head {
+  font-size: 62px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.hero-text {
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
+.button button {
+  padding: 10px 20px 10px 20px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  font-size: 24px;
+  border: 0px solid;
+  margin-top: 20px;
 }
