@@ -136,7 +136,7 @@ a {
 /* ///////////////////////////////////////////////////////////////// */
 .section-cta {
   background-color: #f9faf8;
-  padding: 70px 400px 70px 400px;
+  padding: 100px 400px 100px 400px;
 }
 
 .cta-box {
@@ -163,3 +163,18 @@ a {
   font-size: 18px;
 }
 /* ///////////////////////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////////////////////////// */
+.section-footer {
+  background-color: #121726;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-footer p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #f9faf8;
+}
