@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #121726;
 }
 
@@ -56,7 +58,7 @@ a {
 }
 
 .hero-head {
-  font-size: 62px;
+  font-size: 60px;
   color: #f9faf8;
   font-weight: bolder;
 }
@@ -109,4 +111,25 @@ a {
   font-size: 18px;
   font-weight: 500;
   text-align: center;
+}
+/* ///////////////////////////////////////////////////////////////// */
+.section-quote {
+  background-color: #e5e7eb;
+  padding: 100px 500px 100px 500px;
+}
+
+.quote-msg {
+  font-style: italic;
+  text-align: justify;
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: -2px;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 500;
 }
