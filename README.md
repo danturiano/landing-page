@@ -1,5 +1,6 @@
 # landing-page
 
+I decided that my content would be The Odin Project official website.
 In creating this landing page, my plan is to create each section one by one with css styles included.
 
 IMAGE USED FROM PIXABAY
